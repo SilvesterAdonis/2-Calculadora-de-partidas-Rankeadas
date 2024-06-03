@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de partidas Rankeadas</title>
+    <link rel="stylesheet" href="..//Downloads/2️⃣ Calculadora de partidas Rankeadas.css"> <!--Para conectar os outros arquivos a árvore DOM (html) usem esta tag e ponha o link conforme você irá armazenar no Desktop-->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1176/1176238.png" type="image/x-icon">
+</head>
+<body>
+    
+  <div id="interface">
+    <main>
+        <div class="container">
+
+            <section class="image parallax0">
+                <h1>GUILD POINT SYSTEM</h1>
+            </section>
+
+            <section class="image parallax1">
+                <div id="back1">
+                    
+                    <h2>Regras de Ascensão na Guilda</h2>
+        
+                    <p>
+                        O heroí será classificado em um dos niveís presentes na tabela abaixo, por meio do saldo das Rankeadas 
+                        que é o resultante da subtração entre o número de vitórias e derrotas. De forma que este valor será postos 
+                        dentro das regras de classificaação de nível da Guilda e por ele será dado o nível merecido ao heroí
+                   </p> <br> <br>
+
+                </div>
+        
+             </section>
+            
+        </div>
+        <div class="container">
+            <section class="image parallax2">
+
+                <table>
+                    <caption>Definições de nível de Rank da Guilda</caption>
+                    <thead>
+
+                        <th class="b1">Nível</th>
+                        <th class="b1">Condição</th>
+
+                    </thead>
+                   
+                  <tr>
+                      <th>Ferro</th>
+                      <th>Se o saldo das Rankeadas for menor que 10 </th>
+                  </tr>
+          
+                  <tr>
+                      <th>Bronze</th>
+                      <th>Se o saldo das Rankeadas for entre 11 e 20 </th>
+                  </tr>
+          
+                  <tr>
+                      <th>Prata</th>
+                      <th>Se o saldo das Rankeadas for entre 21 e 50</th>
+                  </tr>
+          
+                  <tr>
+                      <th>Ouro</th>
+                      <th>Se o saldo das Rankeadas for entre 51 e 80</th>
+                  </tr>
+          
+                  <tr>
+                      <th>Diamante</th>
+                      <th>Se o saldo das Rankeadas for entre 81 e 90</th>
+                  </tr>
+          
+                  <tr>
+                      <th>Lendário</th>
+                      <th>Se o salda das Rankeadas for entre 91 e 100</th>
+                  </tr>
+          
+                  <tr>
+                      <th>Imortal</th>
+                      <th>Se o saldo for maior ou igual a 101</th>
+                  </tr>
+          
+                </table>
+        
+              </section>
+        </div>
+
+        <div class="container">
+            <section class="image parallax3">
+
+                <form action="" id="archieves">
+                    <fieldset>
+
+                        <h2 id="tituloInput">Conquistas do seu personagem</h2>
+                         <div class="input-box1">
+                               <label id="pontuaV">Quantidades de vitórias:</label> 
+                               <input type="number" id="vitorias" name="value" class="input-box"> 
+                         </div>
+                         <div class="input-box1">
+
+                              <label id="pontuaD">Quantidades de derrotas:</label> 
+                              <input type="number" name="derrotas" id="derrotas" class="input-box"> 
+
+                         </div>    
+                          <div class="input-box1">
+                              <button type="submit" id="btn_salvar">Enviar</button>
+                          </div>  
+                        
+                    </fieldset>
+                  </form>
+        
+              </section>   
+        </div>
+        
+        <div class="container">
+            
+            <section class="image parallax4">
+
+                 <div id="room">
+
+                      <p id="saida"></p>
+
+                 </div>
+
+            </section>
+        </div>
+
+    </main>     
+
+</div>  
+</body>
+<script src="../Downloads/2️⃣ Calculadora de partidas Rankeadas.js"></script> <!--Para conectar os outros arquivos a árvore DOM (html) usem esta tag e ponha o link conforme você irá armazenar no Desktop-->
+</html>
